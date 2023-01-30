@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: 2rem;
+    --head: calc(1rem + 5vw);
+    --bg-color: #F57D00;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(black, transparent),
+    url("https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 1s ease-in-out;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    height: 10vh;
+    padding: 0rem 1rem;
+    color: white;
+}
+
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.navbar ul li a:hover {
+    border: 2px solid white ;
+    
+}
+
+.hero-text {
+    color: white;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: centre;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(0%);
+    }
+    
+}
+
+.hero-text a {
+    color: white;
+    background: var(--bg-color);
+    font-weight: 900;
+    font-size: var(--text);
+    padding: 0.1rem 1rem;
+    margin: 0.8rem auto;
+    transition: opacity 250ms linear;
+}
+
+.hero-text a:hover {
+    opacity: 0.7;
+}
+
+.hero-text h2 {
+    font-size: var(--head);
+}
+
+.hero-text p {
+    font-size: 2rem;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <section class="hero-section">
+        <nav class="navbar">
+        <h2>Mumma's Kitchen</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+        <h2>A slice a day keeps the sad away</h2>
+        <p>Tastiest pizza you will ever taste.</p>
+        <a href="#">Order Now</a>
+    </section>
+</body>
+</html>
